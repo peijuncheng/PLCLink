@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7541FD6122AE5905000D7302 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7541FD6022AE5905000D7302 /* AppDelegate.m */; };
+		7541FD6422AE5905000D7302 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7541FD6322AE5905000D7302 /* ViewController.m */; };
+		7541FD6722AE5905000D7302 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7541FD6522AE5905000D7302 /* Main.storyboard */; };
+		7541FD6A22AE5905000D7302 /* PJCLink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7541FD6822AE5905000D7302 /* PJCLink.xcdatamodeld */; };
+		7541FD6C22AE5908000D7302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7541FD6B22AE5908000D7302 /* Assets.xcassets */; };
+		7541FD6F22AE5908000D7302 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7541FD6D22AE5908000D7302 /* LaunchScreen.storyboard */; };
+		7541FD7222AE5908000D7302 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7541FD7122AE5908000D7302 /* main.m */; };
+		7541FD7C22AE5908000D7302 /* PJCLinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7541FD7B22AE5908000D7302 /* PJCLinkTests.m */; };
+		7541FD8722AE5908000D7302 /* PJCLinkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7541FD8622AE5908000D7302 /* PJCLinkUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7541FD7822AE5908000D7302 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7541FD5422AE5905000D7302 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7541FD5B22AE5905000D7302;
+			remoteInfo = PJCLink;
+		};
+		7541FD8322AE5908000D7302 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7541FD5422AE5905000D7302 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7541FD5B22AE5905000D7302;
+			remoteInfo = PJCLink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7541FD5C22AE5905000D7302 /* PJCLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PJCLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7541FD5F22AE5905000D7302 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7541FD6022AE5905000D7302 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7541FD6222AE5905000D7302 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7541FD6322AE5905000D7302 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7541FD6622AE5905000D7302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7541FD6922AE5905000D7302 /* PJCLink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PJCLink.xcdatamodel; sourceTree = "<group>"; };
+		7541FD6B22AE5908000D7302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7541FD6E22AE5908000D7302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7541FD7022AE5908000D7302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7541FD7122AE5908000D7302 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7541FD7722AE5908000D7302 /* PJCLinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PJCLinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7541FD7B22AE5908000D7302 /* PJCLinkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJCLinkTests.m; sourceTree = "<group>"; };
+		7541FD7D22AE5908000D7302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7541FD8222AE5908000D7302 /* PJCLinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PJCLinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7541FD8622AE5908000D7302 /* PJCLinkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJCLinkUITests.m; sourceTree = "<group>"; };
+		7541FD8822AE5908000D7302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7541FD5922AE5905000D7302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7541FD7422AE5908000D7302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7541FD7F22AE5908000D7302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7541FD5322AE5905000D7302 = {
+			isa = PBXGroup;
+			children = (
+				7541FD5E22AE5905000D7302 /* PJCLink */,
+				7541FD7A22AE5908000D7302 /* PJCLinkTests */,
+				7541FD8522AE5908000D7302 /* PJCLinkUITests */,
+				7541FD5D22AE5905000D7302 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7541FD5D22AE5905000D7302 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7541FD5C22AE5905000D7302 /* PJCLink.app */,
+				7541FD7722AE5908000D7302 /* PJCLinkTests.xctest */,
+				7541FD8222AE5908000D7302 /* PJCLinkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7541FD5E22AE5905000D7302 /* PJCLink */ = {
+			isa = PBXGroup;
+			children = (
+				7541FD5F22AE5905000D7302 /* AppDelegate.h */,
+				7541FD6022AE5905000D7302 /* AppDelegate.m */,
+				7541FD6222AE5905000D7302 /* ViewController.h */,
+				7541FD6322AE5905000D7302 /* ViewController.m */,
+				7541FD6522AE5905000D7302 /* Main.storyboard */,
+				7541FD6B22AE5908000D7302 /* Assets.xcassets */,
+				7541FD6D22AE5908000D7302 /* LaunchScreen.storyboard */,
+				7541FD7022AE5908000D7302 /* Info.plist */,
+				7541FD7122AE5908000D7302 /* main.m */,
+				7541FD6822AE5905000D7302 /* PJCLink.xcdatamodeld */,
+			);
+			path = PJCLink;
+			sourceTree = "<group>";
+		};
+		7541FD7A22AE5908000D7302 /* PJCLinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				7541FD7B22AE5908000D7302 /* PJCLinkTests.m */,
+				7541FD7D22AE5908000D7302 /* Info.plist */,
+			);
+			path = PJCLinkTests;
+			sourceTree = "<group>";
+		};
+		7541FD8522AE5908000D7302 /* PJCLinkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7541FD8622AE5908000D7302 /* PJCLinkUITests.m */,
+				7541FD8822AE5908000D7302 /* Info.plist */,
+			);
+			path = PJCLinkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7541FD5B22AE5905000D7302 /* PJCLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7541FD8B22AE5908000D7302 /* Build configuration list for PBXNativeTarget "PJCLink" */;
+			buildPhases = (
+				7541FD5822AE5905000D7302 /* Sources */,
+				7541FD5922AE5905000D7302 /* Frameworks */,
+				7541FD5A22AE5905000D7302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PJCLink;
+			productName = PJCLink;
+			productReference = 7541FD5C22AE5905000D7302 /* PJCLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7541FD7622AE5908000D7302 /* PJCLinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7541FD8E22AE5908000D7302 /* Build configuration list for PBXNativeTarget "PJCLinkTests" */;
+			buildPhases = (
+				7541FD7322AE5908000D7302 /* Sources */,
+				7541FD7422AE5908000D7302 /* Frameworks */,
+				7541FD7522AE5908000D7302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7541FD7922AE5908000D7302 /* PBXTargetDependency */,
+			);
+			name = PJCLinkTests;
+			productName = PJCLinkTests;
+			productReference = 7541FD7722AE5908000D7302 /* PJCLinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7541FD8122AE5908000D7302 /* PJCLinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7541FD9122AE5908000D7302 /* Build configuration list for PBXNativeTarget "PJCLinkUITests" */;
+			buildPhases = (
+				7541FD7E22AE5908000D7302 /* Sources */,
+				7541FD7F22AE5908000D7302 /* Frameworks */,
+				7541FD8022AE5908000D7302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7541FD8422AE5908000D7302 /* PBXTargetDependency */,
+			);
+			name = PJCLinkUITests;
+			productName = PJCLinkUITests;
+			productReference = 7541FD8222AE5908000D7302 /* PJCLinkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7541FD5422AE5905000D7302 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "pei juncheng";
+				TargetAttributes = {
+					7541FD5B22AE5905000D7302 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					7541FD7622AE5908000D7302 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7541FD5B22AE5905000D7302;
+					};
+					7541FD8122AE5908000D7302 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7541FD5B22AE5905000D7302;
+					};
+				};
+			};
+			buildConfigurationList = 7541FD5722AE5905000D7302 /* Build configuration list for PBXProject "PJCLink" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7541FD5322AE5905000D7302;
+			productRefGroup = 7541FD5D22AE5905000D7302 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7541FD5B22AE5905000D7302 /* PJCLink */,
+				7541FD7622AE5908000D7302 /* PJCLinkTests */,
+				7541FD8122AE5908000D7302 /* PJCLinkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7541FD5A22AE5905000D7302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7541FD6F22AE5908000D7302 /* LaunchScreen.storyboard in Resources */,
+				7541FD6C22AE5908000D7302 /* Assets.xcassets in Resources */,
+				7541FD6722AE5905000D7302 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7541FD7522AE5908000D7302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7541FD8022AE5908000D7302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7541FD5822AE5905000D7302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7541FD6A22AE5905000D7302 /* PJCLink.xcdatamodeld in Sources */,
+				7541FD6422AE5905000D7302 /* ViewController.m in Sources */,
+				7541FD7222AE5908000D7302 /* main.m in Sources */,
+				7541FD6122AE5905000D7302 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7541FD7322AE5908000D7302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7541FD7C22AE5908000D7302 /* PJCLinkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7541FD7E22AE5908000D7302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7541FD8722AE5908000D7302 /* PJCLinkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7541FD7922AE5908000D7302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7541FD5B22AE5905000D7302 /* PJCLink */;
+			targetProxy = 7541FD7822AE5908000D7302 /* PBXContainerItemProxy */;
+		};
+		7541FD8422AE5908000D7302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7541FD5B22AE5905000D7302 /* PJCLink */;
+			targetProxy = 7541FD8322AE5908000D7302 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7541FD6522AE5905000D7302 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7541FD6622AE5905000D7302 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7541FD6D22AE5908000D7302 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7541FD6E22AE5908000D7302 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7541FD8922AE5908000D7302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7541FD8A22AE5908000D7302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7541FD8C22AE5908000D7302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PJCLink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PJC.PJCLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7541FD8D22AE5908000D7302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PJCLink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PJC.PJCLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7541FD8F22AE5908000D7302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PJCLinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PJC.PJCLinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PJCLink.app/PJCLink";
+			};
+			name = Debug;
+		};
+		7541FD9022AE5908000D7302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PJCLinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PJC.PJCLinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PJCLink.app/PJCLink";
+			};
+			name = Release;
+		};
+		7541FD9222AE5908000D7302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PJCLinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PJC.PJCLinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PJCLink;
+			};
+			name = Debug;
+		};
+		7541FD9322AE5908000D7302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PJCLinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PJC.PJCLinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PJCLink;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7541FD5722AE5905000D7302 /* Build configuration list for PBXProject "PJCLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7541FD8922AE5908000D7302 /* Debug */,
+				7541FD8A22AE5908000D7302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7541FD8B22AE5908000D7302 /* Build configuration list for PBXNativeTarget "PJCLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7541FD8C22AE5908000D7302 /* Debug */,
+				7541FD8D22AE5908000D7302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7541FD8E22AE5908000D7302 /* Build configuration list for PBXNativeTarget "PJCLinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7541FD8F22AE5908000D7302 /* Debug */,
+				7541FD9022AE5908000D7302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7541FD9122AE5908000D7302 /* Build configuration list for PBXNativeTarget "PJCLinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7541FD9222AE5908000D7302 /* Debug */,
+				7541FD9322AE5908000D7302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7541FD6822AE5905000D7302 /* PJCLink.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7541FD6922AE5905000D7302 /* PJCLink.xcdatamodel */,
+			);
+			currentVersion = 7541FD6922AE5905000D7302 /* PJCLink.xcdatamodel */;
+			path = PJCLink.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7541FD5422AE5905000D7302 /* Project object */;
+}
