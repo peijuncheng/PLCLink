@@ -16,6 +16,8 @@
 		7541FD7222AE5908000D7302 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7541FD7122AE5908000D7302 /* main.m */; };
 		7541FD7C22AE5908000D7302 /* PJCLinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7541FD7B22AE5908000D7302 /* PJCLinkTests.m */; };
 		7541FD8722AE5908000D7302 /* PJCLinkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7541FD8622AE5908000D7302 /* PJCLinkUITests.m */; };
+		7544675E22AF466C00F0BC57 /* UIView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 7544675C22AF466C00F0BC57 /* UIView+Ext.m */; };
+		7544676122AF89A200F0BC57 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7544676022AF89A200F0BC57 /* TwoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		7541FD8222AE5908000D7302 /* PJCLinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PJCLinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7541FD8622AE5908000D7302 /* PJCLinkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJCLinkUITests.m; sourceTree = "<group>"; };
 		7541FD8822AE5908000D7302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7544675C22AF466C00F0BC57 /* UIView+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Ext.m"; sourceTree = "<group>"; };
+		7544675D22AF466C00F0BC57 /* UIView+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Ext.h"; sourceTree = "<group>"; };
+		7544675F22AF89A200F0BC57 /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		7544676022AF89A200F0BC57 /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +109,14 @@
 		7541FD5E22AE5905000D7302 /* PJCLink */ = {
 			isa = PBXGroup;
 			children = (
+				7544675D22AF466C00F0BC57 /* UIView+Ext.h */,
+				7544675C22AF466C00F0BC57 /* UIView+Ext.m */,
 				7541FD5F22AE5905000D7302 /* AppDelegate.h */,
 				7541FD6022AE5905000D7302 /* AppDelegate.m */,
 				7541FD6222AE5905000D7302 /* ViewController.h */,
 				7541FD6322AE5905000D7302 /* ViewController.m */,
+				7544675F22AF89A200F0BC57 /* TwoViewController.h */,
+				7544676022AF89A200F0BC57 /* TwoViewController.m */,
 				7541FD6522AE5905000D7302 /* Main.storyboard */,
 				7541FD6B22AE5908000D7302 /* Assets.xcassets */,
 				7541FD6D22AE5908000D7302 /* LaunchScreen.storyboard */,
@@ -266,7 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7541FD6A22AE5905000D7302 /* PJCLink.xcdatamodeld in Sources */,
+				7544675E22AF466C00F0BC57 /* UIView+Ext.m in Sources */,
 				7541FD6422AE5905000D7302 /* ViewController.m in Sources */,
+				7544676122AF89A200F0BC57 /* TwoViewController.m in Sources */,
 				7541FD7222AE5908000D7302 /* main.m in Sources */,
 				7541FD6122AE5905000D7302 /* AppDelegate.m in Sources */,
 			);
