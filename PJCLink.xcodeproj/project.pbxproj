@@ -18,6 +18,8 @@
 		7541FD8722AE5908000D7302 /* PJCLinkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7541FD8622AE5908000D7302 /* PJCLinkUITests.m */; };
 		7544675E22AF466C00F0BC57 /* UIView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 7544675C22AF466C00F0BC57 /* UIView+Ext.m */; };
 		7544676122AF89A200F0BC57 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7544676022AF89A200F0BC57 /* TwoViewController.m */; };
+		7544676422AFAA9C00F0BC57 /* tclink.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7544676222AFAA9C00F0BC57 /* tclink.gif */; };
+		7544676522AFAA9C00F0BC57 /* ttlink.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7544676322AFAA9C00F0BC57 /* ttlink.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		7544675D22AF466C00F0BC57 /* UIView+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Ext.h"; sourceTree = "<group>"; };
 		7544675F22AF89A200F0BC57 /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
 		7544676022AF89A200F0BC57 /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		7544676222AFAA9C00F0BC57 /* tclink.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tclink.gif; sourceTree = "<group>"; };
+		7544676322AFAA9C00F0BC57 /* ttlink.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ttlink.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 		7541FD5E22AE5905000D7302 /* PJCLink */ = {
 			isa = PBXGroup;
 			children = (
+				7544676222AFAA9C00F0BC57 /* tclink.gif */,
+				7544676322AFAA9C00F0BC57 /* ttlink.gif */,
 				7544675D22AF466C00F0BC57 /* UIView+Ext.h */,
 				7544675C22AF466C00F0BC57 /* UIView+Ext.m */,
 				7541FD5F22AE5905000D7302 /* AppDelegate.h */,
@@ -251,6 +257,8 @@
 				7541FD6F22AE5908000D7302 /* LaunchScreen.storyboard in Resources */,
 				7541FD6C22AE5908000D7302 /* Assets.xcassets in Resources */,
 				7541FD6722AE5905000D7302 /* Main.storyboard in Resources */,
+				7544676522AFAA9C00F0BC57 /* ttlink.gif in Resources */,
+				7544676422AFAA9C00F0BC57 /* tclink.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
