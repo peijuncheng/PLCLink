@@ -4,7 +4,7 @@
 演示截图如下：
 
 1、左为tableView右为collectionView
-![image](https://github.com/peijuncheng/PJCLink/blob/master/PJCLink/tclink.gif)
+![image](https://github.com/peijuncheng/PLCLink/blob/master/PJCLink/tclink.gif)
 
 
 2、左为tableView右为tableView
